@@ -20,6 +20,11 @@ namespace Delegates
 			Name = name;
 		}
 
+		/// <summary>
+		/// Accepts a print method and a PlayerModel to be printed
+		/// </summary>
+		/// <param name="printPlayer"></param>
+		/// <param name="player"></param>
 		public void Print(PrintPlayerInfo printPlayer, PlayerModel player) 
 		{
 			printPlayer(player);

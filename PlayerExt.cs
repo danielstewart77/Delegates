@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Delegates
 {
+	/// <summary>
+	/// Extends the PlayerModel Class with some print methods
+	/// </summary>
 	public static class PlayerExt
 	{
 		public static void PrintName(this PlayerModel pl)
